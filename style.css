@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{font-family: 'Montserrat', sans-serif;}
+
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#80bd38, #3a2b2b);
+    cursor: move;
+}
+
+
+.container{
+    width: 300px;
+    max-width: 400px;
+    background-color: rgb(99 107 90);
+    border-radius: 6px;
+    overflow: hidden;
+    height: 465px;
+    box-shadow: 0px 0px 25px 0px rgb(43 43 42);
+}
+
+
+.display{
+    background-color: rgb(0 0 0);
+    height: 80px;
+    width: 95%;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+    box-shadow: 0px 0px 42px 3px #8bbb53;
+    border-radius: 7px;
+    margin-left: 8px;
+    margin-top: 8px;
+    color: #ff382a;
+}
+
+
+.display-1{
+    font-size: 19px;
+    height: 20px;
+    overflow: hidden;
+    color: white;
+    margin-top: -8px;
+}
+
+
+.temp-result{
+    position: absolute;
+    bottom: 2px;
+    font-size: 19px;
+    color: red;
+    left: 9px;
+}
+
+
+.all-buttons{
+    color: whitesmoke;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    width: 94%;
+    margin-left: 9px;
+    margin-top: 4px;
+    padding: 0px 4px;
+}
+
+
+.button{
+    border: .5px solid rgb(92, 92, 92, 0.137);
+    height: 72px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px -1px #89ff00;
+    color: #c3c3c3;
+    font-weight: 700;
+}
+
+
+.button:hover{
+    background-color: rgb(128 144 110);
+    color: #89ff00;
+}
+
+
+.btn-0{
+    grid-column: 1/3;
+}
+
+
+
+/*....................................................END........................................................ */
